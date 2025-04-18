@@ -62,11 +62,11 @@ Products
 ### Customers (No Auth Required)
 - `GET /api/v1/customer/get-all`  
 - `PATCH /api/v1/customer/update/:id`  
-- `DELETE /api/v1/customer/delete/:id`  
-
+- `DELETE /api/v1/customer/delete/:id`
+- `GET /api/v1/product/get-all`
+ 
 ### Products (Auth Required)
-- `POST /api/v1/product/create`  
-- `GET /api/v1/product/get-all`  
+- `POST /api/v1/product/create`   
 - `PATCH /api/v1/product/update/:id`  
 - `DELETE /api/v1/product/delete/:id`  
 - `GET /api/v1/product/search?keyword=shirt`  

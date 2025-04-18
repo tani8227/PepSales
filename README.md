@@ -63,9 +63,9 @@ Products
 - `GET /api/v1/customer/get-all`  
 - `PATCH /api/v1/customer/update/:id`  
 - `DELETE /api/v1/customer/delete/:id`
-- `GET /api/v1/product/get-all`
  
 ### Products (Auth Required)
+- `GET /api/v1/product/get-all`
 - `POST /api/v1/product/create`   
 - `PATCH /api/v1/product/update/:id`  
 - `DELETE /api/v1/product/delete/:id`  

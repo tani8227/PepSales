@@ -27,7 +27,7 @@ Products
 
 ## Folder Structure
 
-- `routes/v1/` - Contains versioned API routes (customer, product)  
+- `routes/api/v1/` - Contains versioned API routes (customer, product)  
 - `controllers/` - Business logic for handling requests  
 - `models/` - Mongoose schemas for MongoDB collections  
 - `middleware/` - JWT auth middleware  
